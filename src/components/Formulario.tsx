@@ -10,7 +10,7 @@ registerLocale('es', es)
 
 const Formulario = () => {
 
-    const { addManga, activeId, mangas, updateManga, getMangaById, clearMangaSeleccionado } = useMangaStore()
+    const { addManga, activeId, mangas, updateManga, clearMangaSeleccionado } = useMangaStore()
 
     const initialState: DraftManga = {
         nombre: '',
